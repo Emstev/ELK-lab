@@ -113,7 +113,7 @@ resource "aws_instance" "app_server" {
 
    user_data = templatefile("${path.module}/app-server_config.sh.tpl", 
   {
-    elk_server_ip = aws_instance.elk_server.public_ip  # No quotes around this
+    elk_server_ip = aws_instance.elk_server.public_ip  
   }
   )
 
