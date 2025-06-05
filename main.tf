@@ -71,7 +71,7 @@ resource "aws_security_group" "elk_sg" {
 }
 
 resource "aws_instance" "elk_server" {
-  ami           = "ami-075686beab831bb7f"  # Amazon Linux 2 AMI (adjust for your region)
+  ami           = "ami-075686beab831bb7f"  # Ubuntu AMI (adjust for your region)
   instance_type = "t3.large"  # Recommended for ELK
 
   root_block_device {
