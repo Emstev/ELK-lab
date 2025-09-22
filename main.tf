@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "us-west-2"  # Adjust to your preferred region
+  region = "us-west-2"  # Adjust to your preferred region.
 }
 
 resource "aws_security_group" "elk_sg" {
