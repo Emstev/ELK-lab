@@ -1,7 +1,8 @@
 ELK Stack Deployment with Terraform.
 
 Project Overview:
-This project demonstrates the deployment and configuration of an ELK Stack (Elasticsearch, Logstash, and Kibana) using Terraform for Infrastructure as Code (IaC). It showcases how application logs can be ingested, indexed, visualised, and monitored effectively to support observability and troubleshooting in real-world environments.
+This project demonstrates the deployment and configuration of an ELK Stack (Elasticsearch, Logstash, and Kibana) using Terraform for Infrastructure as Code (IaC).
+It showcases how application logs can be ingested, indexed, visualised, and monitored effectively to support observability and troubleshooting in real-world environments.
 
 
 Tools & Technologies:
@@ -45,7 +46,7 @@ Performance optimisation and root cause analysis
 
 
 How to Use This Repo
-Clone the repository 
+Clone the repository https://github.com/Emstev/ELK-lab.git
 Update Terraform variables with your environment details.
 Run terraform init, terraform plan, and terraform apply.
 Access Kibana via the ELK server public DNS.
