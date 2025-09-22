@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-# Get the private IP dynamically
+# Get the private IP dynamically.
 PRIVATE_IP=$(hostname -I | awk '{print $1}')
 LOGSTASH_HOST="${PRIVATE_IP}:5044"
 KIBANA_HOST="http://${PRIVATE_IP}:5601"
